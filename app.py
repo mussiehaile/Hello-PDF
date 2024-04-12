@@ -1,7 +1,7 @@
 
 import streamlit as st
-from dotenv import load_dotenv
-from streamlit_extras.add_vertical_space import add_vertical_space
+# from dotenv import load_dotenv
+# from streamlit_extras.add_vertical_space import add_vertical_space
 
 google_api_key ="AIzaSyDoxSiAdhhVkZ85g1ypRrb2pLmb-3oZkko"
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -20,7 +20,6 @@ from langchain.callbacks import get_openai_callback
 import pickle
 import os
 #load api key lib
-from dotenv import load_dotenv
 import base64
 
 
@@ -63,7 +62,7 @@ with st.sidebar:
     add_vertical_space(4)
     st.write('💡All about pdf based chatbot, created by mussie🤗')
 
-load_dotenv()
+
 
 def main():
     st.header("📄Chat with your pdf file🤗")
