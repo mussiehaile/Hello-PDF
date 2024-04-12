@@ -1,6 +1,5 @@
 
 import streamlit as st
-from dotenv import load_dotenv
 from streamlit_extras.add_vertical_space import add_vertical_space
 
 google_api_key ="AIzaSyDoxSiAdhhVkZ85g1ypRrb2pLmb-3oZkko"
