@@ -56,12 +56,12 @@ with st.sidebar:
 
     ## About me:
 
-    # - [Linkedin](https://www.linkedin.com/in/venkat-vk/)
+    # - [Linkedin](kedin.com/in/mussie-haile-981158156/)
     
     ''')
 
     add_vertical_space(4)
-    st.write('💡All about pdf based chatbot, created by VK🤗')
+    st.write('💡All about pdf based chatbot, created by mussie🤗')
 
 load_dotenv()
 
