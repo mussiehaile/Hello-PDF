@@ -1,7 +1,7 @@
 
 import streamlit as st
 
-google_api_key ="AIzaSyDoxSiAdhhVkZ85g1ypRrb2pLmb-3oZkko"
+google_api_key =""
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 # from langchain.embeddings import HuggingFaceEmbeddings
